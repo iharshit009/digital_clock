@@ -1,6 +1,7 @@
 int h,k,m,s;
   int swh=8;
   int swm=9;
+  int swo=10;
 #include<LiquidCrystal.h>
 LiquidCrystal lcd(2,3,4,5,6,7);
 void setup() {
