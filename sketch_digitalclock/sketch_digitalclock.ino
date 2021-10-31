@@ -84,6 +84,9 @@ m=0;
   lcd.setCursor(13,1);
   lcd.print(s);
   delay(1000);
+  
+  // Set Cursor back to origin
+  lcd.setCursor(0,0);
 }
   }
 
